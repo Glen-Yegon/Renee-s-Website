@@ -1,0 +1,101 @@
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #6971ff;
+    border: dotted;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #ff8d14;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+#flowerContainer {
+    margin-top: 20px;
+}
+
+#flowerImage {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.body1{
+    background-image: url(images/pic4.jpeg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body2{
+    background-image: url(images/pic5.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#flowerName{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#loveMessage{
+    font-style: italic;
+}
+.body3{
+    background-image: url(images/image/d74c4f6e1a041ef75dd0e2a44dcc68b5.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.renee{
+    display: flex;
+    margin: 50px;
+    padding: 100px;
+
+}
+.im{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 300px;
+}
+.h{
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    display: block;
+}
+.h11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Messages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body2">
+    <div class="content">
+        <h1 id="loveMessage"></h1>
+        <div id="flowerContainer">
+            <img id="flowerImage" src="" alt="Flower">
+            <p id="flowerName"></p>
+        </div>
+        <button onclick="generateMessage()" class="btn">Generate Another</button>
+    </div>
+    <div class="div5">
+        <button id="newPage">Click Me</button>
+    </div>
+    <script>
+        document.getElementById("newPage").onclick = function () {
+            window.location.href = "renee.html";
+        };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
